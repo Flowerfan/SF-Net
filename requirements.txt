@@ -101,7 +101,7 @@ skorch==0.7.0
 tabulate==0.8.6
 tensorboard==2.1.0
 tensorboard-logger==0.1.0
-tensorflow==2.1.0
+tensorflow==2.4.0
 tensorflow-estimator==2.1.0
 tensorflow-hub==0.8.0
 termcolor==1.1.0
