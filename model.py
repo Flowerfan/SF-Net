@@ -154,7 +154,7 @@ class SFNET(torch.nn.Module):
             a_x_f = self.flow_act_layer(base_x_f.permute([0, 2,
                                                           1])).permute([0, 2, 1])
             a_x_r = self.rgb_act_layer(
-                base_x_f.permute([0, 2, 1])).permute([0, 2, 1])
+                base_x_r.permute([0, 2, 1])).permute([0, 2, 1])
 
         a_x_f = self.flow_action(a_x_f)
         a_x_r = self.rgb_action(a_x_r)
